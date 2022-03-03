@@ -1,0 +1,14 @@
+// 서비스 회원가입 테스트에서 illegalstateExceptin : Failed to load ApplicationContext 발생
+- 스프링컨테이너 문제로 예상하고 @webappconfigurationn를 붙여봤음
+- db를 안켜서 생기는 오류였음 *해결*
+
+// 주문서비스 테스트에서 address쪽에 InstantiationException: No default constructor for entity 발생
+- address의 생성자가 없었음 *해결*
+
+// 회원가입 페이지 404error
+- controller패키지에 form이 있어 찾지 못함(왜인지는 불명)
+- membercontroller의 패키지가 web이 아닌 controller에 있었음 *해결*
+
+// 상품등록 페이지에서 cannot find symbol : BookForm 발생
+- 아무리봐도 잘못된 것이 없어서 시간 엄청 써서 검토해봄
+- 그냥 서버껐다 키니까 해결됨 *해결*

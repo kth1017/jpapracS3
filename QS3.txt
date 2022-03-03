@@ -1,0 +1,15 @@
+// *2 영속성의 동일 +
+
+// 간혹 .java와 class가 분리됨
+
+/! name=""를 ""으로함
+
+/! 테이블명은 맨앞 소문자
+
+// 강의에선 address의 기본생성자를 만들어야했는데 프로젝트에선 생성자만 있으면 ok?
+
+// final선언시 inner class에서의 유효범위 +
+
+// 연관관계메소드는 어느 엔티티에 코딩해야하는지, Joincolumn의 필요성 +
+
+// addAttribute와 @ModelAttribute의 차이 + (아이템컨트롤러에 표시된 참조하는 html의 위치기준[redirect시에 어디?])
