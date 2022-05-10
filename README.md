@@ -11,10 +11,10 @@ spring, jpa, thymeleaf / 기초적인 상품 관리 페이지 practice / 220306
 
 # 요약
 
-준비
+@준비
 - Client entity : member / item, category / order, delivery
 
-코드
+@코드
 - back component : entity, repository, service, controller
 - view : thymeleaf
 
